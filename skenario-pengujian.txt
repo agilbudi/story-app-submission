@@ -1,0 +1,71 @@
+Class MainViewModelTest:
+	a.Ketika Berhasil memuat Data:
+		-Memastikan data tidak Null
+		-Memastikan mengembalikan Result.Success
+		-Memastikan data sesuai
+		-Memastikan data Jumlah sesuai yang diharapkan
+	b.Ketika Gagal memuat Data:
+		-Memastikan data error tidak Null
+		-Memastikan mengembalikan data Result.Error
+		-Memastikan mengembalikan data error response
+
+Class MapViewModelTest:
+	fun listStory:
+	a.Ketika Berhasil memuat Data:
+		-Memastikan data tidak Null
+		-Memastikan mengembalikan Result.Success
+		-Memastikan data sesuai yang diharapkan
+		-Memastikan data Jumlah sesuai yang diharapkan
+	b.Ketika Gagal memuat Data:
+		-Memastikan data error tidak Null
+		-Memastikan mengembalikan data Result.Error
+		-Memastikan mengembalikan data error response
+	fun markerStory:
+	a.Ketika Berhasil memuat Data:
+		-Memastikan data tidak Null
+		-Memastikan mengembalikan Result.Success
+		-Memastikan data sesuai yang diharapkan
+		-Memastikan data Jumlah sesuai yang diharapkan
+	b.Ketika Gagal memuat Data:
+		-Memastikan data error tidak Null
+		-Memastikan mengembalikan data Result.Error
+		-Memastikan mengembalikan data error response
+
+Class AuthViewModelTest:
+	fun login:
+	a.Ketika Berhasil memuat Data:
+		-Memastikan data tidak Null
+		-Memastikan mengembalikan Result.Success
+		-Memastikan data sesuai yang diharapkan
+	b.Ketika Gagal memuat Data:
+		-Memastikan data error tidak Null
+		-Memastikan mengembalikan data Result.Error
+		-Memastikan mengembalikan data error response
+
+	fun register:
+	a.Ketika Berhasil memuat Data:
+		-Memastikan data tidak Null
+		-Memastikan mengembalikan Result.Success
+		-Memastikan data sesuai yang diharapkan
+	b.Ketika Gagal memuat Data:
+		-Memastikan data error tidak Null
+		-Memastikan mengembalikan data Result.Error
+		-Memastikan mengembalikan data error response
+
+	fun getEmail:
+	a.Ketika Berhasil memuat Data:
+		-Memastikan data tidak Null
+		-Memastikan data sesuai yang diharapkan
+	fun setEmail:
+	a. Ketika Gagal set Data:
+		-Memastikan throw error jika data null
+
+Class AddStoryViewModelTest:
+	a.Ketika Berhasil memuat Data:
+		-Memastikan data tidak Null
+		-Memastikan mengembalikan Result.Success
+		-Memastikan data Jumlah sesuai yang diharapkan
+	b.Ketika Gagal memuat Data:
+		-Memastikan data error tidak Null
+		-Memastikan mengembalikan Result.Error
+		-Memastikan mengembalikan data error response
